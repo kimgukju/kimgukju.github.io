@@ -1,0 +1,107 @@
+html {
+  /* background-image: url(image.jpg);
+  background-size: cover; */
+}
+* {
+  box-sizing: border-box;
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+header h1 {
+  color: khaki;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#loginjoin {
+  display: flex;
+  justify-content: flex-end;
+
+  margin: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: darkblue;
+}
+#login {
+  padding: 0 20px 0 0;
+  border: 2px solid green;
+}
+#join {
+  padding: 0 0 0 10px;
+  border: 2px solid green;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 100px 30px 0 30px;
+}
+
+.menu {
+  padding: 10px 100px 10px 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: large;
+  color: goldenrod;
+  border: none;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.menu:hover {
+  background-color: aquamarine;
+}
+
+#list {
+  background-color: darkgray;
+  margin: 0 205px 20px 205px;
+  width: 1000px;
+  height: 500px;
+  padding: 3px 60px 3px 3px;
+  color: coral;
+  font-size: 150%;
+  padding: 30px;
+}
+
+.sort {
+  display: flex;
+  justify-content: space-around;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  margin: 20px;
+}
+
+#busstop {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: lime;
+  font-size: large;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px 20px;
+  margin: 0 50px;
+}
+
+a#search {
+  padding: 50px;
+}
